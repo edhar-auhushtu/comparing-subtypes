@@ -1,6 +1,6 @@
 package com.ea.fruit;
 
-public class Fruit {
+public abstract class Fruit {
 
     protected String name;
     protected int size;
