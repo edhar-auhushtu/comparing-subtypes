@@ -10,6 +10,10 @@ public abstract class Fruit {
         this.size = size;
     }
 
+    protected int compareTo(Fruit that) {
+        return Integer.compare(this.size, that.size);
+    }
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
