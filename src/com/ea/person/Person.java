@@ -1,6 +1,6 @@
 package com.ea.person;
 
-public class Person implements Comparable<Person> {
+public abstract class Person implements Comparable<Person> {
 
     private final String sex;
     private final int age;
