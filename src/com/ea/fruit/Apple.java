@@ -7,7 +7,7 @@ public class Apple extends Fruit implements Comparable<Apple> {
     }
 
     @Override
-    public int compareTo(Apple that) {
-        return Integer.compare(this.size, that.size);
+    public int compareTo(Apple apple) {
+        return super.compareTo(apple);
     }
 }
